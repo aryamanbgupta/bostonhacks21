@@ -9,24 +9,28 @@
 </head>
 <body>
     <h1>Pomodoro Timer</h1>
+    <img id="bull-image" src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-grinning-bull-emoji-vitaliy-gorbachev-lineal-color-vitaly-gorbachev-1.png"/>
+    <h1 id="response"></h1>
+    <!--Cycle Counter-->
     <div id="container">
-        <p id="work" class="label">Work:</p><p id="break" class="label">Break:</p><p id="cycles" class="label">Cycles:</p>
+        <p id="work" class="label">Work:</p>
+        <p id="break" class="label">Break:</p>
         <!--Work Timer-->
         <div id="work-timer" class="timer">
             <p id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
         </div>
 
-        <!--Cycle Counter-->
-        <p id="counter" class="timer">0</p>
-
         <!--Break Timer-->
         <div id="break-timer" class="timer">
             <p id="b_minutes">05</p><p class="semicolon">:</p><p id="b_seconds">00</p>
         </div>
+    </div>
+    <div class="buttons">
         <button id="start" class="btn">Start</button>
-        <button id="stop" class="btn">Pause</button>
+        <button id="stop" class="btn">Stop</button>
         <button id="reset" class="btn">Reset</button>
     </div>
-    <script src="main.js"></script>
+
+    <script src="app.js"></script>
 </body>
 </html>

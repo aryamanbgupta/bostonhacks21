@@ -125,3 +125,98 @@ p {
     font-weight: 900px;
     
 }
+
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+body{
+    background: #53d2dc;
+    font-family: 'Prompt', sans-serif;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+
+.bull-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 30px 0px;
+}
+
+
+.start, .stop{
+    margin-right: 30px;
+}
+.start{
+    background-color: #7af8a0;
+    border: 3px solid #7af8a0;
+}
+.stop{
+    background-color: #f87a7a;
+    border: 3px solid #f87a7a;
+}
+.reset{
+    background-color: #f0f87a;
+    border: 3px solid #f0f87a;
+}
+.start, .stop, .reset{
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 10px 1px rgba(48, 48, 48, 0.199);
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    transition: 0.15s;
+}
+.start:hover, .stop:hover, .reset:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(87, 87, 87, 0.596);
+
+}
+.buttons{
+    text-align: center;
+    padding: 30px 40px;
+    font-weight: 900px;
+    
+}
+.clock{
+    text-align: center;
+}
+
+.break, .session{
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 30px;
+    transition: 0.15s;
+}
+
+.break:hover, .session:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.break-buttons{
+    text-align: center;
+    padding: 30px 40px;
+}*/
